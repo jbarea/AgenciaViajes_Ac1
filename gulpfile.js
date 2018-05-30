@@ -38,7 +38,6 @@ gulp.task('styles', () => { styles() });
 
 gulp.watch(['index.html']).on('change', () => {
     browserSync.reload();
-    scripts();
 });
 
 
