@@ -1,0 +1,27 @@
+{
+  "name": "agencia_viajes_geekshubs_travel",
+  "version": "1.0.0",
+  "description": "Web de agencia de viajes de GeeksHubs Travels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarea/AgenciaViajes_Ac1.git"
+  },
+  "author": "Jose Antonio Barea y Roberto Ríos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbarea/AgenciaViajes_Ac1/issues"
+  },
+  "homepage": "https://github.com/jbarea/AgenciaViajes_Ac1#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-uglify": "^3.0.0"
+  }
+}
