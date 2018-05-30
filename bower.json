@@ -1,0 +1,21 @@
+{
+  "name": "Agencia de viajes GeeksHubs Travel",
+  "homepage": "https://github.com/jbarea/AgenciaViajes_Ac1",
+  "authors": [
+    "Juan Antonio Barea y Roberto Ríos"
+  ],
+  "description": "Web de agencia de viajes GeeksHubs Travel",
+  "main": "bower",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "^3.3.7"
+  }
+}
