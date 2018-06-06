@@ -1,35 +1,43 @@
+form input {
+    border-radius: 0 !important;
+}
+
 section#quien-somos {
     background: url('/img/back.jpeg');
 }
 
-section#quien-somos div.diffuser{
+section#quien-somos div.diffuser {
     padding: 70px 0 45px;
     background: #00094875;
 }
+
 section#quien-somos div.row div.box {
-    background:#FFF;
+    background: #FFF;
 }
 
-section#quien-somos div.row div.box > hr{
+section#quien-somos div.row div.box>hr {
     border-width: 5px;
     border-color: #fef200;
 }
+
 section#quien-somos div.row p {
     color: #3F4359;
     overflow-wrap: wrap;
 }
+
 section#quien-somos div.row button {
     background: #141939;
     color: #FEF200;
     font-size: 15pt;
 }
+
 section#donde-estamos {
     background: #FCFCFC;
 }
 
 section#donde-estamos span,
 section#donde-estamos p {
-    font-size: 9pt;
+    font-size: 10pt;
 }
 
 section#donde-estamos hr {
@@ -87,4 +95,8 @@ footer div:nth-child(3) button {
     cursor: pointer;
     background: #FEF200;
     font-size: 14pt;
+}
+
+footer form input[type="email"] {
+    width: 59%;
 }
