@@ -89,6 +89,7 @@ Temporary Items
 .apdisk
 
 ### VisualStudioCode ###
+.vscode/*
 .history
 
 ### Windows ###
