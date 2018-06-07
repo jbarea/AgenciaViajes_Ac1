@@ -1,4 +1,4 @@
-form input {
+form input, form textarea {
     border-radius: 0 !important;
 }
 
@@ -47,7 +47,6 @@ section#donde-estamos hr {
 
 section#donde-estamos input,
 section#donde-estamos textarea {
-    border: 1px solid #DDDDDD;
     font-size: 8pt;
 }
 
@@ -97,6 +96,6 @@ footer div:nth-child(3) button {
     font-size: 14pt;
 }
 
-footer form input[type="email"] {
+footer form div.row {
     width: 59%;
 }

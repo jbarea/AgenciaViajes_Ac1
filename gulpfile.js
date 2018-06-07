@@ -3,13 +3,17 @@ const gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
-    cleanCSS = require('gulp-clean-css');
+    cleanCSS = require('gulp-clean-css'),
+    babel = require('gulp-babel');
 
 
 
 function scripts() {
     return gulp.src('js/**/*.js')
         .pipe(concat('app.min.js'))
+        .pipe(babel({
+            presets: ['es2015']
+        }))
         .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 }
@@ -31,10 +35,14 @@ gulp.task('browser', () => {
     });
 });
 
-gulp.task('scripts', () => { scripts() });
+gulp.task('scripts', () => {
+    scripts()
+});
 
 
-gulp.task('styles', () => { styles() });
+gulp.task('styles', () => {
+    styles()
+});
 
 gulp.watch(['index.html']).on('change', () => {
     browserSync.reload();
