@@ -18,10 +18,12 @@
   "homepage": "https://github.com/jbarea/AgenciaViajes_Ac1#readme",
   "dependencies": {
     "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.3",
     "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

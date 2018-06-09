@@ -16,6 +16,6 @@
   ],
   "dependencies": {
     "jquery": "latest",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "latest"
   }
 }
