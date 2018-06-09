@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "jquery": "latest",
-    "bootstrap": "latest"
+    "bootstrap": "latest",
+    "font-awesome": "latest"
   }
 }

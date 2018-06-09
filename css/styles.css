@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
 
-/* header {
-  color: white;
-  background-image: url(/img/header.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-} */
 
 header {
     display: flex;
@@ -21,7 +8,6 @@ header {
     top: 0;
     position:absolute;
     width: 100%;
-    /* background: rgba(0, 0, 0, 0.5); */
     box-sizing: border-box;
 }
 
@@ -31,13 +17,6 @@ header {
   justify-content: space-around;
 }
 
-.header-item i {
-  /* color:red; */
-}
-
-.twitter {
-
-}
 .whatsapp {
   color: green;
 }
@@ -59,16 +38,7 @@ header {
 }
 
 .logo img{
-  /* display: block;
-  margin: auto;
-  height: 140px; */
   max-width: 100px;
-}
-
-.logo p {
-  /* position: absolute;
-  top: 100px;
-  left: 166px; */
 }
 
 .logo {
@@ -87,17 +57,11 @@ header {
   font-size: 1.5em;
 }
 
-.cabecera {
-
-}
-
-section {
+section.cuerpo-cabecera, section.viajes {
     min-height: 100vh;
 }
 
 .cuerpo-cabecera {
- /* display: flex;
- justify-content: center; */
  background-image: url(/img/header.jpg);
  background-size: cover;
  display: flex;
@@ -123,18 +87,11 @@ section {
 }
 
 .viajes {
-  /* padding: 60px 0; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 60px; /* 5 em*/
   padding: 7em;  /*2 em*/
 }
-
-/* .viajes .container {
-  display: grid;
-  grid-gap:20px;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
 
 .viaje img {
   width: 100%;
@@ -144,13 +101,11 @@ section {
 .viaje h6 {
     background-color: rgba(0, 26, 102, 0.7);
     color: white;
-    /* padding: 0.3em; */
     padding: 14.3px;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
-    /* z-index: 1; */
 }
 
 .viaje {
@@ -175,19 +130,6 @@ section {
   text-align: center;
   text-decoration-style: solid;
 }
-/* @media (max-width:900px) {
-  .viajes .container {
-    grid-gap:10px;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width:500px) {
-  .viajes .container {
-    grid-gap:10px;
-    grid-template-columns: 1fr;
-  }
-} */
 
 @media (max-width:900px) {
     .viajes {
@@ -210,7 +152,10 @@ section {
   background-color: yellow;
   font-style: italic;
 }
-=======
+
+
+
+
 form input, form textarea {
     border-radius: 0 !important;
 }
@@ -242,6 +187,16 @@ section#quien-somos div.row button {
     background: #141939;
     color: #FEF200;
     font-size: 15pt;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    cursor: pointer;
+}
+
+section#quien-somos div.row button:hover {
+    color: #141939;
+    background: #FEF200;
 }
 
 section#donde-estamos {
@@ -271,6 +226,16 @@ section#donde-estamos form small#messageHelp {
 section#donde-estamos form button {
     background: #fef200;
     font-size: 19pt;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    cursor: pointer;
+}
+
+section#donde-estamos form button:hover{
+    background: #141939;
+    color: #fef200;
 }
 
 footer {
@@ -296,7 +261,7 @@ footer ul a {
 
 footer ul a:hover {
     text-decoration: none;
-    color: #FEF200;
+    text-decoration: underline;
 }
 
 footer div:nth-child(3) input[type="email"] {
@@ -309,7 +274,9 @@ footer div:nth-child(3) button {
     font-size: 14pt;
 }
 
+footer div:nth-child(3) button:hover{
+    text-decoration: underline;
+}
 footer form div.row {
     width: 59%;
 }
->>>>>>> c2ef065e9769d5cb5515f483ca6e324650e8ebd0

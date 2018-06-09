@@ -18,24 +18,16 @@
     "url": "https://github.com/jbarea/AgenciaViajes_Ac1/issues"
   },
   "homepage": "https://github.com/jbarea/AgenciaViajes_Ac1#readme",
-  "dependencies": {
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "bower": "^1.8.4",
     "browser-sync": "^2.24.4",
-<<<<<<< HEAD
-=======
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
->>>>>>> c2ef065e9769d5cb5515f483ca6e324650e8ebd0
     "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.3",
     "gulp-uglify": "^3.0.0"
-  },
-  "devDependencies": {
-<<<<<<< HEAD
-    "gulp": "^3.9.1"
-=======
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1"
->>>>>>> c2ef065e9769d5cb5515f483ca6e324650e8ebd0
   }
 }
