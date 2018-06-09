@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -209,3 +210,106 @@ section {
   background-color: yellow;
   font-style: italic;
 }
+=======
+form input, form textarea {
+    border-radius: 0 !important;
+}
+
+section#quien-somos {
+    background: url('/img/back.jpeg');
+}
+
+section#quien-somos div.diffuser {
+    padding: 70px 0 45px;
+    background: #00094875;
+}
+
+section#quien-somos div.row div.box {
+    background: #FFF;
+}
+
+section#quien-somos div.row div.box>hr {
+    border-width: 5px;
+    border-color: #fef200;
+}
+
+section#quien-somos div.row p {
+    color: #3F4359;
+    overflow-wrap: wrap;
+}
+
+section#quien-somos div.row button {
+    background: #141939;
+    color: #FEF200;
+    font-size: 15pt;
+}
+
+section#donde-estamos {
+    background: #FCFCFC;
+}
+
+section#donde-estamos span,
+section#donde-estamos p {
+    font-size: 10pt;
+}
+
+section#donde-estamos hr {
+    border-color: #2770ff;
+    width: 30px;
+}
+
+section#donde-estamos input,
+section#donde-estamos textarea {
+    font-size: 8pt;
+}
+
+section#donde-estamos form small#messageHelp {
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+
+section#donde-estamos form button {
+    background: #fef200;
+    font-size: 19pt;
+}
+
+footer {
+    background: #141939;
+    color: #FFF;
+}
+
+footer hr {
+    border-color: #080A16;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul a {
+    color: #FFF;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+footer ul a:hover {
+    text-decoration: none;
+    color: #FEF200;
+}
+
+footer div:nth-child(3) input[type="email"] {
+    font-size: 9pt;
+}
+
+footer div:nth-child(3) button {
+    cursor: pointer;
+    background: #FEF200;
+    font-size: 14pt;
+}
+
+footer form div.row {
+    width: 59%;
+}
+>>>>>>> c2ef065e9769d5cb5515f483ca6e324650e8ebd0
