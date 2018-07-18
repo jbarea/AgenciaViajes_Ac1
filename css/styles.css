@@ -17,6 +17,14 @@ header {
   justify-content: space-around;
 }
 
+.boton-menu {
+    display: none;
+}
+
+.float-menu {
+    display: none;
+}
+
 .whatsapp {
   color: green;
 }
@@ -47,10 +55,27 @@ header {
 
 }
 
-.navegacion a {
+/* .navegacion a {
   color: white;
   font-size: 0.8em;
   font-style: italic;
+} */
+.nav_links {
+    color: white;
+    font-size: 0.8em;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+}
+
+.menu_links {
+    color:white;
+    font-size: 23px;
+    font-style: 'italic';
+    padding-top: 74px;
 }
 
 .social {
@@ -141,11 +166,46 @@ section.cuerpo-cabecera, section.viajes {
 }
 
 @media (max-width:500px) {
+    header {
+
+        background-color: #0b2f9c;
+    }
+
     .viajes {
         grid-template-columns: 1fr;
         grid-gap: 0.5em;
         padding: 0.5em;
     }
+
+    .social {
+        display: none;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .header-item{
+        flex-direction: column;
+    }
+
+    .Navbar__ToggleShow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boton-menu {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    /* .float-menu {
+        display: flex;
+        flex-direction: column;
+    } */
+
 }
 
 .boton {
