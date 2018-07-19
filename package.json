@@ -1,33 +1,16 @@
 {
-  "name": "agencia_viajes_geekshubs_travel",
-  "version": "1.0.0",
-  "description": "Web de agencia de viajes de GeeksHubs Travels",
-  "main": "index.js",
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
   "scripts": {
-    "start": "gulp",
-    "install": "bower install",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbarea/AgenciaViajes_Ac1.git"
-  },
-  "author": "Jose Antonio Barea y Roberto Ríos",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jbarea/AgenciaViajes_Ac1/issues"
-  },
-  "homepage": "https://github.com/jbarea/AgenciaViajes_Ac1#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
-    "bower": "^1.8.4",
-    "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.1",
-    "gulp-clean-css": "^3.9.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.2.3",
-    "gulp-uglify": "^3.0.0"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
