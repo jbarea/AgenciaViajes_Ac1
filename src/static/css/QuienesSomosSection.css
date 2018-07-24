@@ -1,0 +1,82 @@
+section#quienes-somos > div.diffuse {
+  width: 100%;
+  height: 100%;
+  padding: 45px 80px;
+  background: #037ea899;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-items: left;
+  align-items: center;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+
+section#quienes-somos > div > div {
+  max-width: 400px;
+  background: #fff;
+  padding: 10px 45px 20px 25px;
+  box-sizing: border-box;
+  display: grid;
+  box-shadow: 0 0 7px #000000;
+  border-radius: 3px;
+}
+
+section#quienes-somos > div > div h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.6em;
+  margin: 4px 0 0 20px;
+}
+
+section#quienes-somos > div > div hr {
+  height: 4px;
+  border: none;
+  margin-left: 18px;
+  background: #fef200;
+  width: 160px;
+}
+
+section#quienes-somos > div > div p {
+  font-size: 0.9em;
+  padding: 20px 15px;
+  text-align: justify;
+  color: #1C223E;
+}
+
+section#quienes-somos > div > div > button {
+  background: #141939;
+  border: none;
+  outline: none;
+  color: #fef200;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  justify-self: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+section#quienes-somos > div > div > button:hover {
+  color: #fff;
+  background: #fef200;
+  text-shadow: 0 0 6px #141939;
+}
+
+@media screen and (max-width: 900px){
+  section#quienes-somos > div.diffuse {
+    grid-template-columns: 1fr;
+    padding: 45px 20px;
+    justify-items: center;
+  }
+
+    section#quienes-somos > div > div{
+      max-width: 500px;
+    }   
+}
+
+@media screen and (max-width: 500px){
+  section#quienes-somos > div.diffuse {
+    padding: 45px 10px;
+  }
+}

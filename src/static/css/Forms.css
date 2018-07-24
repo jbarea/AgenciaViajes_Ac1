@@ -1,0 +1,79 @@
+input::selection, textarea::selection {
+  background:#037EA8;
+  color: #FFF;
+}
+
+form {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr;
+}
+form.divide {
+  grid-template-columns: 1fr 1fr;
+}
+
+form.divide input.all-columns,
+form.divide textarea.all-columns {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+form input,
+form textarea {
+  padding: 10px 5px 10px 15px;
+  font-size: 0.9em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  text-transform: capitalize;
+  color: #333;
+  font-size: 0.8em;
+}
+
+form input[name="name"],
+form input[name="country"],
+form input[name="firstname"],
+form input[name="lastname"] {
+  text-transform: capitalize;
+}
+form input[type="email"] {
+  text-transform: lowercase;
+}
+form textarea::first-letter {
+  text-transform: uppercase;
+}
+
+form textarea.x1 {
+  height: 75px;
+}
+
+form textarea.x2 {
+  height: 150px;
+}
+
+form.grey input {
+  color: #333;
+}
+
+form p.info {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 900px) {
+  form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  form.divide {
+    grid-template-columns: 1fr;
+  }
+
+  form.divide input.all-columns,
+  form.divide textarea.all-columns {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}

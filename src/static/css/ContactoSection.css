@@ -1,0 +1,100 @@
+section#donde-estamos {
+  padding: 45px 80px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 35px;
+}
+
+section#donde-estamos > iframe {
+  height: 525px;
+  width: 100%;
+  border: 0;
+}
+
+section#donde-estamos > div > div.info {
+}
+
+section#donde-estamos > div > div.info p {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+section#donde-estamos > div > div.info p > i {
+  font-size: 1.2em;
+  margin-right: 12px;
+  cursor: pointer;
+  color: #333;
+  text-shadow: none;
+}
+
+section#donde-estamos > div > div.info p:hover > i {
+  color: #037ea8;
+}
+
+section#donde-estamos > div > div.info > p:nth-of-type(1),
+section#donde-estamos > div > div.info > p:nth-of-type(2) {
+  color: #333;
+  font-weight: 600;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+section#donde-estamos > div > div.info p:nth-of-type(1):hover,
+section#donde-estamos > div > div.info p:nth-of-type(2):hover {
+  text-shadow: 0 0 3px #037ea8;
+  color: #FFF;
+}
+
+section#donde-estamos > div > div.info > p:nth-of-type(3),
+section#donde-estamos > div > div.info > p:nth-of-type(4) {
+  margin-top: 25px;
+}
+
+section#donde-estamos > div > div.info > hr {
+  width: 20px;
+  margin: 15px auto 30px 0;
+  border: 1.2px solid #7bb3fd;
+  background: #7bb3fd;
+}
+
+section#donde-estamos > div > form input[type="submit"] {
+  width: auto;
+  justify-self: left;
+  border: 0;
+  color: #141939;
+  background: #fef200;
+  font-size: 1.3em;
+  font-style: italic;
+  cursor: pointer;
+  transition: all 0.15s;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+section#donde-estamos > div > form input[type="submit"]:hover {
+  color: #fef200;
+  background: #141939;
+}
+
+section#donde-estamos > div > form p.info{
+  grid-column: 1/3;
+}
+
+@media screen and (max-width: 900px) {
+  section#donde-estamos {
+    padding: 0 0 45px;
+    grid-template-columns: 1fr;
+  }
+
+  section#donde-estamos > div {
+    padding: 15px 30px;
+  }
+
+  section#donde-estamos > iframe {
+    width: 100%;
+    height: 350px;
+  }
+
+  section#donde-estamos > div > form p.info{
+    grid-column: 1;
+  }
+}

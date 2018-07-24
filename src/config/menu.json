@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "text": "Destinos", "section": "destinos" },
+    { "text": "Quienes somos", "section": "quienes-somos" },
+    { "text": "Donde estamos", "section": "donde-estamos" }
+  ]
+}
