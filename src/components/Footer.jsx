@@ -75,9 +75,6 @@ class ColumnNewsletter extends React.Component {
 
   handleSubscribe = e => {
     e.preventDefault();
-    // if(isEmail(this.state.email.value)){
-    //   this.setState({email: { ...this.state.email, }})
-    // }
   };
 
   handleChange = e => {
@@ -87,7 +84,7 @@ class ColumnNewsletter extends React.Component {
   };
   render() {
     return (
-      <div className="newsletter my-2">
+      <div className="newsletter my-md-2">
         <h1>Suscribete a la newsletter</h1>
         <input
           type="email"
